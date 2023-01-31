@@ -28,4 +28,12 @@ function routeHandler(req,res){
     }
 }
 
-module.exports=routeHandler
+// module.exports=routeHandler
+
+// module.exports={
+//     handler:routeHandler,
+//     text:"this is hard code"
+// }
+
+module.exports.handler=routeHandler
+module.exports.text="some code"
