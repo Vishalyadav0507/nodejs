@@ -1,0 +1,27 @@
+{
+  "name": "node_js",
+  "version": "1.0.0",
+  "description": "code here",
+  "main": "wAndR.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon express.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vishalyadav0507/nodejs.git",
+    "start": "nodemon express.js"
+  },
+  "author": "vishal yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vishalyadav0507/nodejs/issues"
+  },
+  "homepage": "https://github.com/Vishalyadav0507/nodejs#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
