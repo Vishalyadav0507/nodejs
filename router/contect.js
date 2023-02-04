@@ -1,10 +1,9 @@
 const express=require('express')
-const router=express.Router()
-const path=require('path')
 
-router.use("/contect",(req,res,next)=>{
-    res.sendFile(path.join(__dirname,"../","view","contect.html"))
-    
-})
+const router=express.Router()
+
+const contactUsRoute=require('../controller/contact')
+
+router.use("/contect",contactUsRoute)
 
 module.exports=router
